@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "tetkit"
+version = "0.1.0"
+description = ""
+authors = ["Hieu Nguyen <hieu@leadingslash.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pyramid = "2.0"
+tet = "0.4.0.dev1"
+waitress = "2.1.2"
+sqlalchemy = "1.4.39"
+zope-sqlalchemy = "1.6"
+psycopg2-binary = "2.9.3"
+pyramid-tm = "2.5"
+pyramid-retry = "2.1.1"
+fire = "0.4.0"
+sentry-sdk = "1.7.2"
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.2.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
