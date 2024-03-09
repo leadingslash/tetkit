@@ -6,7 +6,7 @@ authors = ["Hieu Nguyen <hieu@leadingslash.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.8"
+python = "^3.8,<3.10"
 pyramid = "2.0"
 tet = "0.4.0.dev1"
 waitress = "2.1.2"
@@ -25,3 +25,6 @@ pytest = "^8.1.1"
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.plugins]
+pytest11 = { tetkit_fixtures = "tetkit.testing.fixtures" }
