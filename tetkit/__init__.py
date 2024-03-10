@@ -11,6 +11,9 @@ from sentry_sdk.integrations.pyramid import PyramidIntegration
 from tet.config import create_configurator
 from tet.util.path import caller_package
 
+__version__ = "0.1.1"
+
+
 FEATURES_SETTINGS = {
     "auth": [
         "tetkit.authentication_callback",

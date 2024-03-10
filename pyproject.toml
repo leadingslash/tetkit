@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "tetkit"
-version = "0.1.0"
+version = "0.1.1"
 description = ""
 authors = ["Hieu Nguyen <hieu@leadingslash.com>"]
 readme = "README.md"
