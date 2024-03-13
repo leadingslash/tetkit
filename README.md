@@ -1,3 +1,3 @@
 # Tetkit
 
-Pyramid wrapper written on top of [tet](https://github.com/tetframework/tet)
+Batteries-included application framework built on [Pyramid](https://trypyramid.com/) and [tet](https://github.com/tetframework/tet)
