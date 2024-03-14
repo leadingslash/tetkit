@@ -7,6 +7,8 @@ license = "MIT"
 readme = "README.md"
 
 homepage = "https://github.com/leadingslash/tetkit"
+repository = "https://github.com/leadingslash/tetkit"
+
 keywords = ["web", "wsgi", "pyramid", "tet"]
 
 [tool.poetry.dependencies]
