@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "tetkit"
-version = "0.1.2"
+version = "0.1.3"
 description = "Batteries-included application framework built on Pyramid and tet"
 authors = ["Hieu Nguyen <hieu@leadingslash.com>"]
 license = "MIT"
