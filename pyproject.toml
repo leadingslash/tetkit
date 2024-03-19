@@ -1,19 +1,17 @@
 [tool.poetry]
 name = "tetkit"
-version = "0.1.4"
+version = "0.1.5"
 description = "Batteries-included application framework built on Pyramid and tet"
 authors = ["Hieu Nguyen <hieu@leadingslash.com>"]
 license = "MIT"
 readme = "README.md"
 
 homepage = "https://github.com/leadingslash/tetkit"
-repository = "https://github.com/leadingslash/tetkit"
 
 keywords = ["web", "wsgi", "pyramid", "tet"]
 
 [tool.poetry.urls]
 Source = "https://github.com/leadingslash/tetkit"
-Issues = "https://github.com/leadingslash/tetkit/issues"
 
 [tool.poetry.dependencies]
 python = "^3.8,<3.10"
