@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "tetkit"
-version = "0.1.5"
+version = "0.1.6"
 description = "Batteries-included application framework built on Pyramid and tet"
 authors = ["Hieu Nguyen <hieu@leadingslash.com>"]
 license = "MIT"
@@ -14,10 +14,10 @@ keywords = ["web", "wsgi", "pyramid", "tet"]
 Source = "https://github.com/leadingslash/tetkit"
 
 [tool.poetry.dependencies]
-python = "^3.8,<3.10"
+python = ">=3.9,<3.10"
 pyramid = "2.0"
 tet = "0.4.0.dev1"
-waitress = "2.1.2"
+waitress = "3.0.2"
 sqlalchemy = "1.4.39"
 zope-sqlalchemy = "1.6"
 alembic = "1.8.1"

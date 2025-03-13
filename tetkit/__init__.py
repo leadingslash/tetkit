@@ -11,7 +11,7 @@ from sentry_sdk.integrations.pyramid import PyramidIntegration
 from tet.config import create_configurator
 from tet.util.path import caller_package
 
-__version__ = "0.1.5"
+__version__ = "0.1.6"
 
 
 FEATURES_SETTINGS = {
